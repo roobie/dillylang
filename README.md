@@ -73,7 +73,9 @@ The directory [`skills/`](skills/) is the canonical source for the
 markdown skill packages. Agent runtimes can install them with:
 
 ```bash
-bunx skills add ./skills
+npx skills add https://github.com/roobie/dillylang
+# or
+bunx skills add https://github.com/roobie/dillylang
 ```
 
 Don't edit installed copies — they're populated from this directory.
@@ -96,7 +98,7 @@ vocabulary owes its bias toward inverting questions to both.
   author  = {Roberg, Björn},
   title   = {Dillylang: a formal vocabulary for reasoning about thought processes},
   year    = {2026},
-  url     = {https://github.com/bjornroberg/dillylang},
+  url     = {https://github.com/roobie/dillylang},
   note    = {Pre-1.0; interfaces may change. DOI pending.}
 }
 ```
