@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "skills": {
+    "caveman": {
+      "source": "JuliusBrussee/caveman",
+      "sourceType": "github",
+      "skillPath": "caveman/SKILL.md",
+      "computedHash": "259cb6ef69b4e9eeb07155c925ce9895ed509b0feb6a7e29cbc9e70d3c7bcfb2"
+    },
+    "caveman-stats": {
+      "source": "JuliusBrussee/caveman",
+      "sourceType": "github",
+      "skillPath": "skills/caveman-stats/SKILL.md",
+      "computedHash": "d45d54b5d4dc0372476bbb9245a412a7ad6b2495f7435321ff0b18a16be3465c"
+    },
+    "compress-file": {
+      "source": "/home/jani/devel/dillylang/skills",
+      "sourceType": "local",
+      "computedHash": "4fc52bded3cc3817a3ecbd58d8be60cd82c70cdcc68f400a6873bd89a3c85f8b"
+    },
+    "dillylang-decompose": {
+      "source": "/home/jani/devel/dillylang/skills",
+      "sourceType": "local",
+      "computedHash": "3123b1bea3248b5204a4a33b21d64073ca307119cb9f2729ee519f8466765c00"
+    },
+    "dillylang-evaluate": {
+      "source": "/home/jani/devel/dillylang/skills",
+      "sourceType": "local",
+      "computedHash": "5048fe017bff0fc9ba3d5f2c8abec8186ebbe2cd3db04151ec0466039e4433e9"
+    },
+    "dillylang-invert": {
+      "source": "/home/jani/devel/dillylang/skills",
+      "sourceType": "local",
+      "computedHash": "02700064df53607c70e5203005a0154983782a14bc9d2a3f6109d74cdfa42464"
+    },
+    "dillylang-model-c-recipe-runner": {
+      "source": "/home/jani/devel/dillylang/skills",
+      "sourceType": "local",
+      "computedHash": "0268a972ece5a755fd27cd5c482d59b8bbb3223a1ec86880c3f5f0b1622614f6"
+    },
+    "dillylang-rank": {
+      "source": "/home/jani/devel/dillylang/skills/dillylang-rank",
+      "sourceType": "local",
+      "computedHash": "8a3aafd8f09029a5a2c493eb242d04a750884fa03fe8d9d635d8857f06254082"
+    },
+    "dillylang-rotate": {
+      "source": "/home/jani/devel/dillylang/skills/dillylang-rotate",
+      "sourceType": "local",
+      "computedHash": "8ab97becb4998fec9758f129c049a722cfac703048f8b13396a55edfedd3c739"
+    },
+    "dillylang-synthesize": {
+      "source": "/home/jani/devel/dillylang/skills",
+      "sourceType": "local",
+      "computedHash": "1f0fc6c50e94cb366365dab10ba496031ab79ec0f186bb5b495ac1036561e9de"
+    },
+    "dillylang-translate": {
+      "source": "/home/jani/devel/dillylang/skills",
+      "sourceType": "local",
+      "computedHash": "0e582d36f8c5c9ef55707690487c2f16818ebd91979a954d04c9cb88fc5821c6"
+    }
+  }
+}

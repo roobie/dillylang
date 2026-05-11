@@ -1,0 +1,38 @@
+[project]
+name = "dillylang"
+version = "0.1.0"
+description = "A formal vocabulary for reasoning about thought processes"
+requires-python = ">=3.11"
+dependencies = [
+    "dspy>=2.6",
+    "pydantic>=2.9",
+    "rich>=14.0",
+    "click>=8.0",
+    "pyright>=1.1.409",
+]
+
+[project.scripts]
+dillylang = "dillylang.cli.main:cli"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+markers = [
+    "integration: requires configured LLM (use --run-integration to enable)",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "mypy>=1.13",
+    "ruff>=0.8",
+    "types-pyyaml>=6.0.12.20260408",
+]
